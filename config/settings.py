@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # API Configuration
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "<api key comes here>")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 MODEL_NAME = "meta-llama/llama-4-maverick:free"
 
